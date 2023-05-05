@@ -1,6 +1,7 @@
 
 *{
   font-family:  monospace;
+ 
 }
 
 /* header start */
@@ -33,6 +34,9 @@
 color: white;
 cursor: pointer;
 transition: 0.2s ease-in-out;
+}
+.displayBackGround{
+  background-color: rgb(250, 250, 245);
 }
 /* header end */
 
@@ -85,6 +89,28 @@ transition: 0.2s ease-in-out;
   height: 250px;
   border-radius: 50%;
   border: 4px solid orange;
+}
+.headCrust{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+.Box1{
+  width: 340px;
+}
+.OrderBtn1{
+  padding: 5px 32px ;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color:rgba(237, 210, 8, 0.947); 
+  font-weight: 600;
+
+}
+.OrderBtn1:hover{
+  background-color: black;
+  color: white;
+  transition: 0.2s ease-in-out;
 }
 /* main section close */
 

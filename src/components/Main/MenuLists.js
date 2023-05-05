@@ -86,20 +86,7 @@ export const vegToppings = [
   },
 ];
 
-export const NonVegToppings = [
-  {
-    name: "Chicken tikka",
-    price: 35,
-  },
-  {
-    name: "Barbeque chicken",
-    price: 45,
-  },
-  {
-    name: "Grilled chiclen",
-    price: 40,
-  },
-];
+
 
 export const sides = [
   {

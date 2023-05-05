@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Header = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Header = () => {
 
         <div className="navBar">
           <div className="logo">Pizza</div>
-          <div className="cart"> Cart(0)</div>
+          
         </div>
         </nav>
       </header>

@@ -5,21 +5,21 @@ import sides from "../images/sides.webp";
 import { useNavigate } from "react-router-dom";
 
 const DisplayMenu = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const nonVegPizzaItem = () => {
-    navigate("/nonVegPizza")
+    navigate("/nonVegPizza");
     // console.log("triggered");
   };
   const vegPizzaItem = () => {
-    navigate("/vegPizza")
+    navigate("/vegPizza");
     // console.log("triggered");
   };
   const sidesItem = () => {
-    navigate("/sides")
+    navigate("/sides");
     // console.log("triggered");
   };
   return (
-    <div className="container">
+    <div className="container displayBackGround">
       <div className="menuItems">
         <div className="menuItem">
           <div className="">
@@ -51,7 +51,12 @@ const DisplayMenu = () => {
         </div>
         <div className="menuItem">
           <div className="">
-            <img src={sides} alt="" onClick={sidesItem} className="nonvegPizza" />
+            <img
+              src={sides}
+              alt=""
+              onClick={sidesItem}
+              className="nonvegPizza"
+            />
           </div>
           <div className="my-3">
             <h3>Beverages</h3>
